@@ -17,22 +17,131 @@
 // Include theme-specific fonts
 @import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
 
 
 // Override theme settings (see ../template/settings.scss)
 $mainFont: 'Lato', sans-serif;
 $mainColor: #000;
-$headingFont: 'News Cycle', Impact, sans-serif;
+$headingFont: 'Yanone Kaffeesatz', 'News Cycle', Impact, sans-serif;
 $headingColor: #000;
 $headingTextShadow: none;
 $headingTextTransform: none;
 $backgroundColor: #fff;
-$linkColor: #00008B;
+$linkColor: #663399;
 $linkColorHover: lighten( $linkColor, 20% );
-$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+$selectionBackgroundColor: #663399;
 
+// purple
+$mainColor: #fff;
+$headingColor: #fff;
+$backgroundColor: #663399;
+$linkColor: #FFFF99;
 
 
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+#anatomy {
+  span {
+    display: block;
+    top: -75px;
+    position: absolute;
+  }
+}
+
+#ideas {
+  ul li ul {
+    list-style-type: none;
+  }
+}
+
+#deploying {
+  span {
+    display: block;
+    position: absolute;
+    top: -75px;
+    width: 100%;
+  }
+}
+
+#meatdelay {
+  span {
+    display: block;
+    position: absolute;
+    top: -300px;
+    width: 100%;
+  }
+}
+
+.reveal {
+  h2 {
+    margin: 0 0 50px 0;
+  }
+
+  cite {
+    font-size: 0.8em;
+  }
+}
+
+a.psuedolet {
+  background: #ddd;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #000 !important;
+  font-family: "Lucida Grande";
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 10px;
+  &:hover {
+    background: #eee;
+  }
+}
+
+h1.logo {
+  // background: #fff;
+  // color: #551A8B;
+  color: #fff;
+  font-family: "Times New Roman", serif;
+  padding: 20px 0 30px;
+  + h3 {
+    margin: 60px 0;
+    // a {
+    //   color: #333 !important;
+    // }
+  }
+}
+
+.reveal blockquote h2 {
+  margin: 0 0 10px 0;
+  line-height: 1.3em;
+  padding: 20px;
+}
+
+#rawgitoverride {
+  height: 720px !important;
+  margin-top: -90px;
+  width: 852px !important;
+}
+
+#magic p:nth-child(2) {
+  margin-top: 120px;
+}
+
+#first {
+  h3 {
+    margin: 80px 0 60px;
+  }
+}
+
+.reveal #resources {
+  // margin-top: -80px;
+
+  a, p {
+    font-size: 20px !important;
+  }
+  h4 {
+    margin: 40px 0 15px 0;
+  }
+}

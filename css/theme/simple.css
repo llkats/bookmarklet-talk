@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 /**
  * A simple theme for reveal.js presentations, similar
  * to the default theme. The accent color is darkblue.
@@ -7,23 +5,26 @@
  * This theme is Copyright (C) 2012 Owen Versteeg, https://github.com/StereotypicalApps. It is MIT licensed.
  * reveal.js is Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700);
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: white;
-  background-color: white; }
+  background: #663399;
+  background-color: #663399; }
 
 .reveal {
   font-family: "Lato", sans-serif;
   font-size: 36px;
   font-weight: normal;
   letter-spacing: -0.02em;
-  color: black; }
+  color: white; }
 
 ::selection {
   color: white;
-  background: rgba(0, 0, 0, 0.99);
+  background: #663399;
   text-shadow: none; }
 
 /*********************************************
@@ -36,8 +37,8 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: black;
-  font-family: "News Cycle", Impact, sans-serif;
+  color: white;
+  font-family: "Yanone Kaffeesatz", "News Cycle", Impact, sans-serif;
   line-height: 0.9em;
   letter-spacing: 0.02em;
   text-transform: none;
@@ -50,7 +51,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: darkblue;
+  color: #ffff99;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -59,13 +60,13 @@ body {
   transition: color .15s ease; }
 
 .reveal a:not(.image):hover {
-  color: #0000f1;
+  color: #9966cc;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #00003f; }
+  background: #ffff4d; }
 
 /*********************************************
  * IMAGES
@@ -73,7 +74,7 @@ body {
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
-  border: 4px solid black;
+  border: 4px solid white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
@@ -83,7 +84,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: darkblue;
+  border-color: #ffff99;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -91,31 +92,31 @@ body {
  *********************************************/
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: darkblue; }
+  border-right-color: #ffff99; }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: darkblue; }
+  border-left-color: #ffff99; }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: darkblue; }
+  border-bottom-color: #ffff99; }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color: darkblue; }
+  border-top-color: #ffff99; }
 
 .reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #0000f1; }
+  border-right-color: #9966cc; }
 
 .reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #0000f1; }
+  border-left-color: #9966cc; }
 
 .reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #0000f1; }
+  border-bottom-color: #9966cc; }
 
 .reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #0000f1; }
+  border-top-color: #9966cc; }
 
 /*********************************************
  * PROGRESS BAR
@@ -124,7 +125,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: darkblue;
+  background: #ffff99;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
@@ -135,4 +136,69 @@ body {
  * SLIDE NUMBER
  *********************************************/
 .reveal .slide-number {
-  color: darkblue; }
+  color: #ffff99; }
+
+#anatomy span {
+  display: block;
+  top: -75px;
+  position: absolute; }
+
+#ideas ul li ul {
+  list-style-type: none; }
+
+#deploying span {
+  display: block;
+  position: absolute;
+  top: -75px;
+  width: 100%; }
+
+#meatdelay span {
+  display: block;
+  position: absolute;
+  top: -300px;
+  width: 100%; }
+
+.reveal h2 {
+  margin: 0 0 50px 0; }
+.reveal cite {
+  font-size: 0.8em; }
+
+a.psuedolet {
+  background: #ddd;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #000 !important;
+  font-family: "Lucida Grande";
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding: 10px; }
+  a.psuedolet:hover {
+    background: #eee; }
+
+h1.logo {
+  color: #fff;
+  font-family: "Times New Roman", serif;
+  padding: 20px 0 30px; }
+  h1.logo + h3 {
+    margin: 60px 0; }
+
+.reveal blockquote h2 {
+  margin: 0 0 10px 0;
+  line-height: 1.3em;
+  padding: 20px; }
+
+#rawgitoverride {
+  height: 720px !important;
+  margin-top: -90px;
+  width: 852px !important; }
+
+#magic p:nth-child(2) {
+  margin-top: 120px; }
+
+#first h3 {
+  margin: 80px 0 60px; }
+
+.reveal #resources a, .reveal #resources p {
+  font-size: 20px !important; }
+.reveal #resources h4 {
+  margin: 40px 0 15px 0; }

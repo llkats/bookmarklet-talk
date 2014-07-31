@@ -91,15 +91,21 @@ module.exports = function(grunt) {
 				'css/**',
 				'js/**',
 				'lib/**',
-				'images/**',
+				'img/**',
 				'plugin/**'
 			]
 		},
 
 		watch: {
 			main: {
-				files: [ 'Gruntfile.js', 'js/reveal.js', 'css/reveal.css' ],
-				tasks: 'default'
+				files: [
+					'Gruntfile.js',
+					'js/reveal.js',
+					'css/reveal.css',
+					'content.md'
+				],
+				// tasks: 'default'
+				// tasks: 'themes'
 			},
 			theme: {
 				files: [ 'css/theme/source/*.scss', 'css/theme/template/*.scss' ],

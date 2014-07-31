@@ -1,0 +1,86 @@
+gif of using meatdelay
+gifs for the magic autoadvancer
+
+
+Finish Resources
+check about favicons
+get a meatspace gif
+cache the font Yanone Kaffeesatz
+
+is the whole point of `void` for bookmarklets?
+
+
+before i begin: craigslist (lowercase this -- actually find a logo)
+we're hiring in San Francisco, and i'd love to get in touch. please come see me after my talk or during the conference at any time
+
+what is a bookmarklet? chances are, you've already used one before. they're used to add a little more functionality to a site, or *provide persistent contact to that functionality as you browse the web -- emphasize more* 
+
+bookmarklet at it's most fundamental
+
+"otherwise the browser will open a new page with the returned value" -- verify this
+
+"you can write a twitter bot" - but you have to mess with a server to host your code on, and sometimes you just want something simpler
+
+"you can write a bookmarklet" - put that "internet level two" gif next
+- a site that you don't have access to its source, you can still add features and customize behavior or styles using a bookmarklet
+
+
+pocket saves to pocket
+delicious didn't do anything
+pinterest spoiled my gifs
+
+(reloading the notes view crashed the presentation)
+
+katamari damacy was kind of loud
+
+Workflow: add a note to PRESS DOWN
+
+(reloading the presentation without redoing the notes view broke the notes from reloading automatically)
+
+so once you start getting a handle on what's available to you in the console and start writing a function or two, you're going to run into the fact that it's really cumbersome to write extensively in the console
+
+where is the snippets file saved?
+right-click and select run to run it -- is there a keyboard shortcut?
+where was that history thing from?
+clean up the duplicated notes in that section
+
+UI elements for feedback
+"removing DOM elements / event listeners after the script has finished" so that there's not any unexpected behavior after your script has executed
+
+kathack - target _blankt
+
+# deploying - clean up this slide
+- talk about minifying
+
+# auto-advancer
+make the link look like a bookmarklet
+- i'm just going to trigger this script from a link (or set my bookmarks bar idk)
+might need more gifs
+- i included a UI element to let the user know that i'm starting the auto-advancing
+- and also when i stop it
+- *then* talk about the refactors to do
+
+auto-update - credit Thomas
+
+whisper updating - esp useful if you're in the middle of developing it
+extra request every time you trigger your bookmarklet
+
+using libraries
+-minify/bundle dependencies
+- this is where to use the swipe code, maybe press down if it works int he tech rehearsal
+
+# pitfalls
+
+But Why Bookmarklets
+why did i want to come here today and give a talk about bookmarklets
+
+small project scope: conceive of an idea from start to finish that isn't overwhelming, and uses only one language
+fast: don't need to set up a huge dev environment or have access to a server or do any configuration
+
+hodor didn't work at all
+
+take a big gif of meatspace
+joined this crazy gif chatroom called meatspace that was developed by Jen Fong-Adwent
+
+when i was releasing that bookmarklet, i realized i hadn't really released anything to the public before on behalf of just myself. i realized that it's really difficult.
+want to release only something that's good so people thing you're really good at programming. and even though it was this silly little thing with a bunch of ridiculous variable names, i just wanted to be accepted and have people thing that i'm good at what i do
