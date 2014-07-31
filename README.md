@@ -6,7 +6,7 @@ I gave this talk for CascadiaJS 2014 on July 31st, in Portland, OR.
 
 ## PDF
 
-Here is a link to the PDF version.
+Here is a link to the [PDF version](https://github.com/llkats/bookmarklet-talk/blob/master/bookmarklets-ftw.pdf?raw=true).
 
 ## Downloading and Building this Repo
 
